@@ -1,53 +1,32 @@
 # Anomaly Detection in Social Networks
 
-## Project Overview
-This project implements **anomaly detection in social network graphs** using structural graph metrics and power-law fitting. 
-The goal is to identify anomalous users in large-scale social networks based on graph behavior patterns.
+**A social network graph analysis project identifying anomalous users using structural metrics and machine learning.**
 
-The analysis is performed on **Advogato** and **Facebook** datasets using Python and Jupyter Notebooks.
-## Note:
+## 🧠 Overview
+This repo includes:
+- Computation of graph metrics (degree, centrality, etc.)
+- Power law fitting
+- Anomaly detection models
+- Results and evaluation plots embedded
 
-Open the .ipynb files in Google Colab.
-Mount Google Drive when prompted.
-Ensure the dataset CSV files are placed in your Drive at:
-My Drive/Dataset/
+## 🚀 Execution
+To run:
+1. Open the notebooks in Google Colab
+2. Mount Google Drive
+3. Place dataset CSV in `My Drive/Dataset/`
+4. Run cells in order
 
-## Project Structure
-```
-Final NewProject(Advogato).ipynb              -> Complete anomaly detection workflow on Advogato dataset
-NewProject(facebook)Graph matrics.ipynb       -> Graph metric computation for Facebook dataset
-NewProject(facebook)Fitting.ipynb             -> Power-law fitting and model building
-NewProject(facebook)Testing.ipynb             -> Model testing and anomaly detection results
-```
+## 📌 Notebooks
+- `Advogato Analysis.ipynb` — Full workflow on Advogato
+- `Facebook Graph Metrics.ipynb` — Graph exploration
+- `Fitting.ipynb` — Model building
+- `Testing.ipynb` — Results and evaluation
 
-## Key Features
-- Graph structural metric computation (degree, clustering, centrality, etc.)
-- Power-law fitting for network behavior modeling
-- Machine learning based anomaly detection
-- Visualization of network patterns and detected anomalies
+## 📊 Output & Results
+Plots and tables are saved in the executed notebook. 🔍
 
-## Technologies Used
-- Python
-- Jupyter Notebook
-- NetworkX
-- NumPy
-- Pandas
-- Matplotlib / Seaborn
-- Scikit-learn
+## 🛠 Tech Stack
+Python, NetworkX, Pandas, NumPy, Matplotlib, Scikit-Learn
 
-## How to Run
-1. Clone the repository  
-2. Install required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Open notebooks in Jupyter:
-   ```
-   jupyter notebook
-   ```
-4. Run notebooks in the listed order
-
-## Author
-**Prathika S J**  
-GitHub: prathikasj  
-LinkedIn: prathikasj
+## 📂 Dataset
+Datasets are not included due to size; download from source and place in Drive.

@@ -5,7 +5,7 @@ This project implements **anomaly detection in social network graphs** using str
 The goal is to identify anomalous users in large-scale social networks based on graph behavior patterns.
 
 The analysis is performed on **Advogato** and **Facebook** datasets using Python and Jupyter Notebooks.
-## How to Run
+## Note:
 
 Open the .ipynb files in Google Colab.
 Mount Google Drive when prompted.
